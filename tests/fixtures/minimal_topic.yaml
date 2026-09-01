@@ -1,0 +1,34 @@
+topic:
+  id: minimal-topic
+  name: Minimal Topic
+  audience: engineers
+
+source:
+  adapter: rss
+
+relevance:
+  keywords:
+    - example
+  min_body_chars: 100
+
+digest:
+  lookback_days: 7
+  max_stories: 3
+  summary_sentences: 2
+  decoder_terms: 1
+  taxonomy:
+    - general
+
+concept_track:
+  enabled: false
+
+llm:
+  provider: google
+  model: gemini-2.5-flash
+  api_key_env: GEMINI_API_KEY
+  max_retries: 2
+
+slack:
+  webhook_env: SLACK_WEBHOOK_MINIMAL_TOPIC
+  username: Minimal Topic Bot
+  icon_emoji: ":newspaper:"
