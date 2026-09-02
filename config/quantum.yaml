@@ -1,0 +1,236 @@
+# Quantum Computing topic config.
+#
+# This is the first real topic in this repo and is meant to be copied
+# wholesale as the starting point for the next one. Every key below is
+# explained in place; the schema itself (what's required, what defaults,
+# how it's validated) lives in src/topic_digest/config.py and is the source
+# of truth if this comment ever drifts from it.
+
+# Who this topic is and who it's for. `id` is the stable identifier used
+# in file names, dedupe/state tracking, and log lines, so treat it as an
+# API: pick it once, don't rename it later. `name` is the human-facing
+# title. `audience` isn't decoration: it's fed to the LLM to calibrate how
+# much to explain and how much to assume, so it's worth being specific
+# here rather than writing a generic one-liner.
+topic:
+  id: quantum
+  name: Quantum Computing
+  audience: >
+    A small AI meetup group. Comfortable with software engineering and
+    basic finance (they can read an earnings headline or a funding
+    round), but new to quantum computing with no physics background
+    assumed. One member follows the sector closely and will notice if a
+    summary oversimplifies or gets the physics wrong.
+
+# Which fetch adapter runs for this topic, and that adapter's own config.
+# `options` is validated by the adapter itself (src/topic_digest/sources/),
+# not by this file's schema, so its shape is whatever that adapter needs.
+#
+# yahoo_finance takes a ticker universe, either inline as `tickers:` or,
+# as here, as a path to a separate file. That file is resolved relative to
+# this config file's own directory (see load_tickers() in config.py), so
+# `tickers/quantum.yaml` below means config/tickers/quantum.yaml.
+source:
+  adapter: yahoo_finance
+  options:
+    tickers_file: tickers/quantum.yaml
+
+# The filter a fetched article has to clear before it's worth summarizing.
+#
+# `keywords` is required by the schema but deliberately left empty here:
+# every ticker in tickers/quantum.yaml is a quantum pure-play, so the
+# ticker match alone is the relevance signal. Adding keyword gating on
+# top would only risk dropping legitimate coverage that doesn't happen to
+# say "quantum" in the headline (an earnings headline, a partnership
+# announcement quoting a CEO, etc). A topic whose source isn't already
+# scoped this tightly (e.g. an RSS feed covering a whole industry) is
+# where `keywords` earns its keep.
+#
+# `exclude_keywords` catches stock-promo noise that rides along with
+# ticker-based fetching: newsletter spam and "watchlist" content that
+# mentions a ticker without being news about the company.
+#
+# `min_body_chars` is the length below which there isn't enough text to
+# summarize honestly rather than pad or hallucinate around a stub.
+relevance:
+  keywords: []
+  exclude_keywords:
+    - "stocks to watch"
+    - "options alert"
+    - "price target"
+  min_body_chars: 400
+
+# Shape and size limits for the weekly digest.
+#
+# `taxonomy` is the fixed set of categories a story gets sorted into; it's
+# shown to the LLM as the only valid choices, so keep it short enough that
+# each one is genuinely distinct and a story doesn't have to guess between
+# two overlapping labels.
+digest:
+  lookback_days: 7
+  max_stories: 3
+  summary_sentences: 5
+  decoder_terms: 3
+  taxonomy:
+    - "Hardware Milestone"
+    - "Funding / M&A"
+    - "Earnings"
+    - "Policy / Government"
+    - "Research"
+    - "Partnership"
+    - "Market Move"
+
+# The running syllabus taught alongside the news. Each week (when there's
+# a lesson left to send) one entry here becomes a ConceptPost. Order is
+# the teaching order: every prompt below only assumes what earlier slugs
+# already established, so don't reorder without checking that dependency
+# chain. `slug` must stay stable once a lesson has been sent, since it's
+# how the pipeline tracks which lessons have already gone out.
+concept_track:
+  enabled: true
+  syllabus:
+    - slug: what-is-a-qubit
+      title: "What Is a Qubit?"
+      prompt: >
+        Explain what a qubit is to someone who has never studied physics
+        but knows what a classical bit is. Directly correct the most
+        common misconception: a qubit is not a bit that is secretly 0 or
+        1 and merely unknown to us, the way a coin under a cup is heads
+        or tails even before you look. Explain superposition as a
+        genuinely different kind of state, and explain what measurement
+        does to it, using a concrete, non-mathematical analogy. End with
+        why this distinction is the reason quantum computers can't just
+        be described as "faster classical computers."
+
+    - slug: entanglement
+      title: "Entanglement Is a Resource, Not a Signal"
+      prompt: >
+        Building on what a qubit and superposition are, explain
+        entanglement: what it means for two qubits to be entangled, and
+        why entangled qubits behave as a single system rather than two
+        independent ones. Directly correct the popular misconception that
+        entanglement allows faster-than-light communication or "spooky
+        action" that sends information; explain concretely why it does
+        not, referencing what measurement collapses. Then explain why
+        entanglement is treated as a resource that algorithms consume,
+        which sets up why more qubits isn't simply "more computing power"
+        the way more classical transistors is.
+
+    - slug: hardware-modalities
+      title: "How Do You Actually Build a Qubit?"
+      prompt: >
+        Assuming the reader already knows what a qubit and superposition
+        are, survey the main hardware approaches used to physically build
+        one: superconducting circuits, trapped ions, neutral atoms, and
+        photonics. For each, give one sentence on the physical mechanism
+        and one on its main practical tradeoff (e.g. gate speed vs.
+        coherence time, or scalability vs. connectivity). Correct the
+        misconception that these companies are all racing to build the
+        same machine; they're making different, genuinely competing bets
+        on which physical substrate scales best, and it's an open
+        question which one wins.
+
+    - slug: physical-vs-logical-qubits
+      title: "Why 'Qubit Count' Is a Misleading Headline Number"
+      prompt: >
+        Explain decoherence and noise: why physical qubits, built from
+        any of the hardware approaches covered previously, lose their
+        quantum state quickly and make raw calculations unreliable.
+        Introduce quantum error correction as the technique of encoding
+        one reliable "logical" qubit out of many noisy "physical" qubits
+        working together. Directly correct the misconception a reader
+        will have picked up from marketing headlines: a company
+        announcing a "1,000-qubit chip" has not announced 1,000 qubits of
+        usable computing power, and the physical-to-logical ratio is
+        exactly the number that press releases tend to omit.
+
+    - slug: algorithms-that-matter
+      title: "The Algorithms That Would Actually Matter If the Hardware Gets There"
+      prompt: >
+        Explain the small handful of quantum algorithms that motivate the
+        entire field's investment, in terms a software engineer can
+        follow: Shor's algorithm for factoring (why it threatens current
+        public-key cryptography), Grover's algorithm for search (why its
+        speedup is more modest than people assume), and
+        quantum-simulation-style algorithms for chemistry and materials
+        science. Correct the misconception that a working quantum
+        computer would speed up general-purpose software; the known
+        speedups apply to a narrow set of problem structures, not to
+        computing broadly, and most everyday software would see no
+        benefit at all.
+
+    - slug: post-quantum-cryptography
+      title: "Why 'Post-Quantum Cryptography' Doesn't Need a Quantum Computer"
+      prompt: >
+        Building directly on Shor's algorithm from the previous lesson,
+        explain what post-quantum cryptography is: new classical
+        (non-quantum) encryption algorithms designed to stay secure even
+        against a future large-scale quantum computer running Shor's
+        algorithm against today's RSA and elliptic-curve systems. Correct
+        the misconception the name invites: defending against quantum
+        computers does not require owning one, migration is happening
+        now, on classical hardware, ahead of when a cryptographically
+        relevant quantum computer is expected to exist. Explain why
+        standards bodies are moving on this years before the hardware
+        described in earlier lessons is anywhere close to ready.
+
+    - slug: quantum-advantage
+      title: "What 'Quantum Advantage' Actually Claims, and Why It Gets Disputed"
+      prompt: >
+        Using the distinction from the algorithms lesson between problems
+        with a genuine, narrow quantum speedup (Shor's, Grover's,
+        quantum simulation) and everything else, explain what a "quantum
+        advantage" or "quantum supremacy" claim actually asserts: that a
+        quantum machine solved some specific problem faster than any
+        known classical algorithm could. That problem is essentially
+        never one of the useful algorithms just covered, since the
+        hardware isn't there yet; it's almost always a benchmark chosen
+        because it's hard for classical computers and easy for that
+        particular machine, not because it's useful. Explain concretely
+        why these claims keep getting disputed or walked back: classical
+        algorithms improve after the fact and close the gap, benchmark
+        problems can be cherry-picked to flatter the quantum machine, and
+        noise limits what's actually being computed. Correct the
+        misconception that a quantum advantage claim means quantum
+        computers are now generally faster than classical ones at useful
+        work like the algorithms covered in the previous lesson.
+
+    - slug: what-current-machines-can-do
+      title: "What This Week's Machines Can Actually Do"
+      prompt: >
+        Synthesize the hardware modalities, the physical-vs-logical gap,
+        and the quantum advantage disputes from earlier lessons into a
+        grounded answer to the question this whole syllabus has been
+        building toward: what can a quantum computer bought or rented
+        today actually do? Cover the current NISQ (noisy
+        intermediate-scale quantum) era honestly: small numbers of
+        usable logical qubits, no fault-tolerant general-purpose machine
+        yet, and real but narrow research and experimental use. Directly
+        correct the misconception a reader would form from the news
+        stories in this digest alone: a public company's stock rising on
+        a hardware milestone is not the same claim as that company having
+        a working, fault-tolerant quantum computer, and this lesson is
+        the reference point for reading every future hardware-milestone
+        story in this digest with the right amount of skepticism.
+
+# Which LLM writes the summaries and concept posts, and how it
+# authenticates. `api_key_env` names an environment variable; see the
+# same convention on slack.webhook_env below for why a key never appears
+# as a literal value in this file.
+llm:
+  provider: gemini
+  model: gemini-2.5-flash-lite
+  api_key_env: GEMINI_API_KEY
+  max_retries: 4
+
+# Where and how the digest gets posted.
+#
+# `webhook_env` names an environment variable holding the Slack webhook
+# URL; it is never the URL itself. This repo is public and its Actions
+# logs are public, so a webhook pasted directly into this file would leak
+# it. load_topic() actively rejects a value starting with "https://" here
+# to catch that mistake at load time instead of at push time.
+slack:
+  webhook_env: SLACK_WEBHOOK_URL
+  username: "Quantum Digest"
+  icon_emoji: ":atom_symbol:"

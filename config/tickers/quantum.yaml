@@ -1,0 +1,44 @@
+# Ticker universe for the quantum computing topic (config/quantum.yaml).
+#
+# This file only lists companies; it says nothing about prompts, taxonomy,
+# or posting cadence, so it can be reviewed and grown on its own schedule
+# by someone who never needs to open another file in this repo.
+#
+# To add a symbol:
+#   - symbol: TICK        # exchange ticker, as it appears in market data
+#     name: Company Name   # full name; articles usually say "IonQ", not "IONQ"
+#     category: pure-play  # see categories below
+#
+# To remove a company from the digest WITHOUT deleting its entry, set
+# enabled: false instead. This keeps the research trail (when it was added,
+# what category it was judged to be) intact for the next person, rather than
+# losing that context to a deleted line and a buried git history search.
+#
+#   - symbol: TICK
+#     name: Company Name
+#     category: pure-play
+#     enabled: false
+#
+# Categories in use so far:
+#   pure-play - the company's core, current business is quantum hardware
+#               or software; quantum isn't a side bet or a future division.
+#
+# Symbols must be unique across this file (enabled or not); load_tickers()
+# rejects duplicates.
+
+tickers:
+  - symbol: IONQ
+    name: IonQ
+    category: pure-play
+
+  - symbol: RGTI
+    name: Rigetti Computing
+    category: pure-play
+
+  - symbol: QBTS
+    name: D-Wave Quantum
+    category: pure-play
+
+  - symbol: QUBT
+    name: Quantum Computing Inc
+    category: pure-play

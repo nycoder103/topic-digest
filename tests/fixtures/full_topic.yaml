@@ -1,0 +1,52 @@
+topic:
+  id: full-topic
+  name: "Full Topic Example"
+  audience: "Engineers who want the reasoning behind a decision, not just the pattern name."
+
+source:
+  adapter: rss
+  options:
+    feed_urls:
+      - "https://example.com/feed-one.xml"
+      - "https://example.com/feed-two.xml"
+    max_items_per_feed: 25
+
+relevance:
+  keywords:
+    - "distributed systems"
+    - "architecture"
+  exclude_keywords:
+    - "sponsored"
+    - "webinar"
+  min_body_chars: 500
+
+digest:
+  lookback_days: 14
+  max_stories: 6
+  summary_sentences: 4
+  decoder_terms: 3
+  taxonomy:
+    - "patterns"
+    - "trade-offs"
+    - "case-studies"
+
+concept_track:
+  enabled: true
+  syllabus:
+    - slug: coupling-vs-cohesion
+      title: "Coupling vs. Cohesion"
+      prompt: "Explain the difference using a concrete refactoring example."
+    - slug: cap-theorem
+      title: "The CAP Theorem"
+      prompt: "Explain the CAP theorem and why 'choose two' oversimplifies it."
+
+llm:
+  provider: google
+  model: gemini-2.5-pro
+  api_key_env: GEMINI_API_KEY
+  max_retries: 5
+
+slack:
+  webhook_env: SLACK_WEBHOOK_FULL_TOPIC
+  username: "Full Topic Bot"
+  icon_emoji: ":books:"
