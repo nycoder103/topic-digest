@@ -201,6 +201,16 @@ class TestRealConfigFiles:
         for path in sorted(CONFIG_DIR.glob("*.yaml")):
             load_topic(path)
 
+    def test_quantum_topic_resolves_its_ticker_file(self):
+        """First real ticker_file config; path resolution was only exercised
+        against tmp_path fixtures before this, not a config that actually
+        ships in config/.
+        """
+        config = load_topic(CONFIG_DIR / "quantum.yaml")
+        entries = load_tickers(config.source.options, CONFIG_DIR)
+
+        assert [entry.symbol for entry in entries] == ["IONQ", "RGTI", "QBTS", "QUBT"]
+
 
 def _write_yaml(path: Path, data) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)

@@ -14,6 +14,10 @@ dist/
 venv/
 env/
 
+# CI installs with pip; a uv-generated lockfile isn't honored there and
+# would give false confidence about pinning.
+uv.lock
+
 # Test / coverage
 .pytest_cache/
 .coverage
