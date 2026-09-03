@@ -1,7 +1,7 @@
 # Conventions
 
 - TDD: tests before implementation. Tests make no network calls and use fixtures.
-- Run `pytest` and `ruff check .` before reporting a task done.
+- This project uses `uv`. Run `uv run pytest` and `uv run ruff check .` before reporting a task done, not a manually activated venv.
 - Topic-specific knowledge lives in `config/*.yaml`, never in `src/`. Adapters validate their own options.
 - The Slack webhook URL never exists as a value anywhere in this codebase. The repo is public and Actions logs are public.
 - Test fixtures must not contain strings matching real credential formats. GitHub push protection scans the full commit range and will reject the push. Use RFC 2606 reserved hosts (`.invalid`), obviously fake structure, or assemble the string at runtime.
