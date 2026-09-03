@@ -37,3 +37,6 @@ htmlcov/
 # Environment and local state
 .env
 state/
+
+# Personal, project-scoped Claude Code settings (permission allowlists, etc.)
+.claude/settings.local.json
