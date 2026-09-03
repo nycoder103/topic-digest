@@ -1,0 +1,43 @@
+[
+  {
+    "id": "edge-valid-flat",
+    "title": "IonQ Announces New Trapped-Ion Milestone",
+    "publisher": "Example Wire",
+    "link": "https://example.invalid/articles/ionq-milestone",
+    "providerPublishTime": 1767225600,
+    "type": "STORY"
+  },
+  {
+    "id": "edge-missing-title",
+    "content": {
+      "id": "edge-missing-title",
+      "description": "",
+      "summary": "A story with no title should be skipped, not crash the batch.",
+      "pubDate": "2026-08-15T12:00:00Z",
+      "provider": {"displayName": "Example Wire"},
+      "canonicalUrl": {"url": "https://example.invalid/articles/no-title"}
+    }
+  },
+  {
+    "id": "edge-missing-url",
+    "content": {
+      "id": "edge-missing-url",
+      "title": "Story With No Resolvable URL",
+      "description": "",
+      "summary": "Neither canonicalUrl, clickThroughUrl, nor link is set here.",
+      "pubDate": "2026-08-15T12:00:00Z",
+      "provider": {"displayName": "Example Wire"}
+    }
+  },
+  {
+    "id": "edge-missing-timestamp",
+    "content": {
+      "id": "edge-missing-timestamp",
+      "title": "Story With No Publish Time",
+      "description": "",
+      "summary": "Neither pubDate nor providerPublishTime is set here.",
+      "provider": {"displayName": "Example Wire"},
+      "canonicalUrl": {"url": "https://example.invalid/articles/no-timestamp"}
+    }
+  }
+]

@@ -12,6 +12,7 @@ dependencies = [
     "pyyaml",
     "requests",
     "google-genai",
+    "yfinance",
 ]
 
 [project.optional-dependencies]
