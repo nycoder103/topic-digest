@@ -40,6 +40,16 @@ class Article:
     it belongs to. Keeping it frozen means a filter or summarizer can't
     quietly rewrite the source record that later stages (or a re-run) would
     rely on.
+
+    `tags` is deliberately bare identifiers (ticker symbols, category
+    slugs, whatever a source's fetch() puts there); an entry's *position*
+    in that tuple carrying a second meaning (symbol vs. display name, say)
+    isn't something downstream code can read safely. `ticker_names` is
+    where a source records the human-facing form of a `tags` entry it
+    knows one for, keyed by that same entry, so a reader (or a Slack
+    renderer) can show "IonQ" instead of "IONQ" without downstream code
+    having to guess which tags are symbols or hold a separate lookup
+    itself. Empty for sources with no such symbol/name distinction.
     """
 
     title: str
@@ -49,6 +59,7 @@ class Article:
     snippet: str
     body: str
     tags: tuple[str, ...] = field(default_factory=tuple)
+    ticker_names: dict[str, str] = field(default_factory=dict)
 
     @property
     def fingerprint(self) -> str:

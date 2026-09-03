@@ -84,3 +84,20 @@ class TestArticleTextForSummary:
     def test_falls_back_to_snippet_when_body_is_whitespace_only(self):
         article = _article(body="   \n  ", snippet="Just a snippet.")
         assert article.text_for_summary == "Just a snippet."
+
+
+class TestArticleTickerNames:
+    def test_defaults_to_an_empty_dict(self):
+        article = _article()
+        assert article.ticker_names == {}
+
+    def test_maps_a_tags_entry_to_its_display_name(self):
+        article = _article(tags=("IONQ",), ticker_names={"IONQ": "IonQ"})
+        assert article.ticker_names["IONQ"] == "IonQ"
+
+    def test_can_hold_a_name_for_more_than_one_tag(self):
+        article = _article(
+            tags=("IONQ", "RGTI"),
+            ticker_names={"IONQ": "IonQ", "RGTI": "Rigetti Computing"},
+        )
+        assert article.ticker_names == {"IONQ": "IonQ", "RGTI": "Rigetti Computing"}
