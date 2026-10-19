@@ -99,8 +99,14 @@ digest:
 # already established, so don't reorder without checking that dependency
 # chain. `slug` must stay stable once a lesson has been sent, since it's
 # how the pipeline tracks which lessons have already gone out.
+#
+# `start_date` anchors which syllabus week it is: week_number is computed
+# as (today - start_date).days // 7, with no persisted state anywhere (see
+# topic_digest.concept_track). PLACEHOLDER: the maintainer will set the
+# real go-live date before enabling the weekly schedule.
 concept_track:
   enabled: true
+  start_date: 2026-10-18
   syllabus:
     - slug: what-is-a-qubit
       title: "What Is a Qubit?"
