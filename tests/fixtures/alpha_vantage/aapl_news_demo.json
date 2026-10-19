@@ -1,0 +1,2486 @@
+{
+    "items": "50",
+    "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
+    "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+    "feed": [
+        {
+            "title": "Apple Says Smartphones, Tablets Don\u2019t Infringe 5G Tech Patents",
+            "url": "https://news.bloomberglaw.com/ip-law/apple-says-smartphones-tablets-dont-infringe-5g-tech-patents",
+            "time_published": "20261019T150546",
+            "authors": [
+                "Lauren Castle"
+            ],
+            "summary": "Apple has filed a complaint against Hannibal IP LLC in a California federal court, alleging that the patent assertion company breached a contract by prematurely ending 5G technology licensing negotiations and subsequently suing Apple for patent infringement. Apple claims that Hannibal IP, affiliated with Longhorn IP LLC, engaged in negotiations since 2022 but then unexpectedly filed a lawsuit in a Texas federal court in August, asserting that Apple's smartphones and tablets infringe their patents. This legal action suggests a breakdown in what Apple perceived as ongoing and collaborative discussions between the two entities.",
+            "banner_image": "https://news-api.bloomberglaw.com/v1/resize-image?url=https%3A%2F%2Fbloomberg-bna-brightspot.s3.us-east-1.amazonaws.com%2F53%2F78%2Fe818d740480c9629c91451dff6fb%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F1037256878&width=1240&height=480&fit=cover&crop=3994x1539%2B3%2B214",
+            "source": "Bloomberg Law News",
+            "category_within_source": "General",
+            "source_domain": "Bloomberg Law News",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.949520"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.641365"
+                }
+            ],
+            "overall_sentiment_score": -0.10031,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "-0.133540",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "NYSE Expands Trading Hours for American Options, Impacting ICE (Intercontinental Exchange)",
+            "url": "https://www.gurufocus.com/news/9129711/nyse-expands-trading-hours-for-american-options-impacting-ice-intercontinental-exchange",
+            "time_published": "20261019T142712",
+            "authors": [
+                "GuruFocus News"
+            ],
+            "summary": "The NYSE has extended trading hours for American Options to enhance investor access to ETFs and large-cap tech stocks, a move that could boost trading volumes for its parent company, Intercontinental Exchange (ICE). ICE currently trades at a modest undervaluation compared to its GF Value\u2122 and boasts a strong GF Score\u2122 of 85/100, though insider selling contrasts with guru accumulation. This expansion presents a strategic benefit for ICE, offering a fairly valued investment opportunity with solid growth and profitability.",
+            "banner_image": "https://static.gurufocus.com/cdn-cgi/image/width=600,quality=100/logos/0C00000BIQ.png?20",
+            "source": "GuruFocus",
+            "category_within_source": "General",
+            "source_domain": "GuruFocus",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.903769"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.741241"
+                }
+            ],
+            "overall_sentiment_score": 0.252523,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ICE",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.308315",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.625073",
+                    "ticker_sentiment_score": "0.234516",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.632875",
+                    "ticker_sentiment_score": "0.236457",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.610052",
+                    "ticker_sentiment_score": "0.239340",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Cboe Global Markets, Inc. (CBOE) Extends Trading Hours for Select Equity and ETF Options",
+            "url": "https://www.tradingview.com/news/tradingview:a69a97fd4ed91:0-cboe-global-markets-inc-cboe-extends-trading-hours-for-select-equity-and-etf-options/",
+            "time_published": "20261019T140034",
+            "authors": [],
+            "summary": "Cboe Global Markets, Inc. (CBOE) has extended trading hours for select single-stock and ETF options on C1, introducing pre-market (7:30\u20139:25 a.m. ET) and post-market (4:00\u20134:15 p.m. ET) sessions. This move covers symbols like SPY, QQQ, AAPL, and NVDA, representing approximately 53% of 2026 YTD U.S.-listed options volume. The extension aims to capture off-hours demand, improve hedging, and enhance liquidity, building on Cboe's success with index options during Global Trading Hours.",
+            "banner_image": null,
+            "source": "TradingView",
+            "category_within_source": "General",
+            "source_domain": "TradingView",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "1.000000"
+                }
+            ],
+            "overall_sentiment_score": 0.312833,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CBOE",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.459966",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.641765",
+                    "ticker_sentiment_score": "0.234840",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.633309",
+                    "ticker_sentiment_score": "0.241324",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Apple Has Outperformed the S&P 500, but is AAPL\u2019s 35x Valuation Getting Ahead of its Growth?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/apple-outperformed-p-500-aapl-133312470.html",
+            "time_published": "20261019T133301",
+            "authors": [
+                "Noor Ul Ain Rehman"
+            ],
+            "summary": "Apple Inc. (AAPL) has significantly outperformed the S&P 500 with a 30.25% one-year total return, leading to questions about its valuation. While strong June-quarter results showed substantial revenue and EPS growth, particularly from the iPhone and Services, Apple's forward P/E ratio of 35.21 raises concerns about the sustainability of its growth and the impact of non-recurring benefits like tariff refunds. Investors are urged to consider whether the current valuation accurately reflects future earnings potential given these factors.",
+            "banner_image": "https://s.yimg.com/lo/mysterio/api/fde014164016c5a574b833ee436c0b4e0c886e1dc807f6fb1a9fe3779d9a2248/lightyear_networkapi/resizefill_h48%3Bquality_100%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-12%2Fd7df1000-34e4-11eb-b6ae-ac87660fe5ee",
+            "source": "Yahoo Finance",
+            "category_within_source": "General",
+            "source_domain": "Yahoo Finance",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.942310"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.810214"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.848852"
+                },
+                {
+                    "topic": "economy_macro",
+                    "relevance_score": "0.600139"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.630413"
+                }
+            ],
+            "overall_sentiment_score": 0.014028,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.037571",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Qualcomm Incorporated $QCOM Stock Position Decreased by Grant Private Wealth Management Inc",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-qualcomm-incorporated-qcom-stock-position-decreased-by-grant-private-wealth-management-inc-2026-10-19/",
+            "time_published": "20261019T115021",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Grant Private Wealth Management Inc. significantly reduced its stake in Qualcomm (NASDAQ:QCOM) by 58.8% in Q3 2026, selling 3,330 shares and retaining 2,329 shares worth $429,000. Institutional investors now own 74.35% of QCOM, while insiders have recently sold over $5.7 million worth of shares. Despite positive developments like licensing agreements with Apple and Arm, Qualcomm faces challenges including potential chip replacement by Samsung, increased competition from MediaTek, and a broader semiconductor market downturn.",
+            "banner_image": "https://www.marketbeat.com/logos/qualcomm-incorporated-logo-1200x675.png?v=20221020155845",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.912086"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.833596"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.711587"
+                }
+            ],
+            "overall_sentiment_score": -0.038191,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "QCOM",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.042962",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.736762",
+                    "ticker_sentiment_score": "0.349889",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AVGO",
+                    "relevance_score": "0.635749",
+                    "ticker_sentiment_score": "-0.215934",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "INTC",
+                    "relevance_score": "0.626395",
+                    "ticker_sentiment_score": "-0.202515",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "In 1976, Ronald Wayne sold his 10% stake in Apple for $800, 12 days after the company was founded; it would be worth up to $400 billion today",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/1976-ronald-wayne-sold-10-115407813.html",
+            "time_published": "20261019T113946",
+            "authors": [
+                "Xavier Sintra"
+            ],
+            "summary": "Ronald Wayne, one of Apple's three co-founders, sold his 10% stake in the company for $800 just 12 days after its founding in 1976. This stake would be worth up to $400 billion today, given Apple's recent market valuation exceeding $5 trillion. Wayne has stated he does not regret the decision, citing concerns about personal liability for business debts at the time.",
+            "banner_image": "https://s.yimg.com/lo/mysterio/api/5cd3aa159ad7f0b9ae454751ca0b98eaea704bcadd641606006cdfc8f1c786a0/lightyear_networkapi/resizefit_w960%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmen_s_journal_718%2Fe26070fe1e2a4bc7de0447604841ca48.jpg",
+            "source": "Yahoo Finance",
+            "category_within_source": "General",
+            "source_domain": "Yahoo Finance",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.821063"
+                }
+            ],
+            "overall_sentiment_score": 0.244,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.287002",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.628877",
+                    "ticker_sentiment_score": "0.245144",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Goldman Sachs is urging clients to buy 23 stocks from lagging sectors as big tech wobbles",
+            "url": "https://qz.com/goldman-sachs-23-stocks-big-tech-wobbles-101926",
+            "time_published": "20261019T111813",
+            "authors": [
+                "Cris Tolomia"
+            ],
+            "summary": "Goldman Sachs strategists are advising clients to invest in 23 stocks from market sectors that have been lagging. This recommendation comes as the \"Magnificent Seven\" big tech companies, which previously drove market growth, face turbulence due to concerns over AI infrastructure spending. The move suggests a shift away from the tech giants as their combined market value recently saw a significant decline.",
+            "banner_image": "https://qz.com/cdn-cgi/image/width=1920,quality=85,format=auto/https://assets.qz.com/media/GettyImages-2240481589-1920x1281.jpg",
+            "source": "Quartz",
+            "category_within_source": "General",
+            "source_domain": "Quartz",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.920700"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.708746"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.609947"
+                }
+            ],
+            "overall_sentiment_score": -0.06019,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GS",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.206077",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GOOGL",
+                    "relevance_score": "0.891721",
+                    "ticker_sentiment_score": "-0.225524",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.925564",
+                    "ticker_sentiment_score": "0.133574",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.853863",
+                    "ticker_sentiment_score": "-0.230308",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.804958",
+                    "ticker_sentiment_score": "-0.248150",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "State Street SPDR Portfolio S&P 500 ETF (SPYM) Adds NVIDIA and Apple on Thursday",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-portfolio-p-110430541.html",
+            "time_published": "20261019T110711",
+            "authors": [],
+            "summary": "The State Street SPDR Portfolio S&P 500 ETF (SPYM) significantly increased its holdings in NVIDIA (NVDA) and Apple (AAPL) on Thursday, with net inflows of $172.3 million. The ETF bought $13.6 million in NVIDIA shares and $12.9 million in Apple shares, making these its largest buys by dollar value. Technology remains SPYM's largest sector holding, with NVIDIA, Apple, and Microsoft as its top three positions.",
+            "banner_image": "https://s.yimg.com/lo/mysterio/api/1b68aab08c9ea2f649ab560c6e73a9477aed74c9cbe5936f1a0862c48889c323/lightyear_networkapi/resizefill_h48%3Bquality_100%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-11%2F656a72d0-2a99-11eb-abff-c3a42df53bdf",
+            "source": "Yahoo Finance",
+            "category_within_source": "General",
+            "source_domain": "Yahoo Finance",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.925638"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.833543"
+                }
+            ],
+            "overall_sentiment_score": 0.207951,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "STT",
+                    "relevance_score": "0.322097",
+                    "ticker_sentiment_score": "0.039060",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.906779",
+                    "ticker_sentiment_score": "0.325481",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.908721",
+                    "ticker_sentiment_score": "0.334819",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.849750",
+                    "ticker_sentiment_score": "0.237791",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.716019",
+                    "ticker_sentiment_score": "0.235087",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Invesco QQQ (QQQ) Adds NVIDIA and Apple on Oct. 15",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-qqq-adds-nvidia-110337564.html",
+            "time_published": "20261019T110310",
+            "authors": [
+                "GuruFocus News"
+            ],
+            "summary": "Invesco QQQ Trust (QQQ) significantly increased its holdings in all 101 of its positions on October 15, with NVIDIA (NVDA) and Apple (AAPL) being its largest buys by dollar value. The ETF reported $1.13 billion in gross purchases, contributing to its $491.69 billion in assets under management. Technology stocks, including NVIDIA, Apple, Microsoft, Micron Technology, and Amazon, represent a substantial portion of QQQ's portfolio.",
+            "banner_image": "https://s.yimg.com/lo/mysterio/api/1b68aab08c9ea2f649ab560c6e73a9477aed74c9cbe5936f1a0862c48889c323/lightyear_networkapi/resizefill_h48%3Bquality_100%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-11%2F656a72d0-2a99-11eb-abff-c3a42df53bdf",
+            "source": "Yahoo Finance",
+            "category_within_source": "General",
+            "source_domain": "Yahoo Finance",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.938127"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.835443"
+                }
+            ],
+            "overall_sentiment_score": 0.318534,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.947665",
+                    "ticker_sentiment_score": "0.300080",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.920041",
+                    "ticker_sentiment_score": "0.303148",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.721578",
+                    "ticker_sentiment_score": "0.330591",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MU",
+                    "relevance_score": "0.642532",
+                    "ticker_sentiment_score": "0.324532",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.641481",
+                    "ticker_sentiment_score": "0.320893",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Form 4 Apple Inc For: 19 October By Investing.com",
+            "url": "https://uk.investing.com/news/stock-market-news/form-4-apple-inc-for-19-october-93CH-4917003",
+            "time_published": "20261019T103200",
+            "authors": [
+                "Investing.com"
+            ],
+            "summary": "This article from Investing.com announces the filing of a Form 4 for Apple Inc. on October 19. It provides no further details about the Form 4 itself but is embedded within a financial news platform showing various market data and other headlines. The piece primarily serves as a placeholder or brief announcement.",
+            "banner_image": "https://content-media.investing.com/news/LYNXMPEB3R0TC_L.jpg",
+            "source": "Investing.com UK",
+            "category_within_source": "General",
+            "source_domain": "Investing.com UK",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.829132"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.725891"
+                }
+            ],
+            "overall_sentiment_score": 0.0079,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.014320",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Cboe Launches Extended Trading Sessions for Select Single Stock and ETF Options",
+            "url": "https://www.prnewswire.com/news-releases/cboe-launches-extended-trading-sessions-for-select-single-stock-and-etf-options-302912644.html",
+            "time_published": "20261019T100000",
+            "authors": [],
+            "summary": "Cboe Global Markets has launched extended trading sessions for select single stock and ETF options on its Cboe Options Exchange. This initiative allows for pre-market and post-market trading, covering highly active symbols and major ETFs, to provide global investors with greater flexibility in managing positions and risk. The expanded hours are supported by several global brokers, aiming to meet the accelerating demand for 24x5 trading across asset classes.",
+            "banner_image": "https://mmx.prnewswire.com/media/MS454341/Cboe-GM-New-Logo.jpg?id=OA3024020",
+            "source": "PR Newswire",
+            "category_within_source": "General",
+            "source_domain": "PR Newswire",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.925733"
+                }
+            ],
+            "overall_sentiment_score": 0.477259,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CBOE",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.624644",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.731180",
+                    "ticker_sentiment_score": "0.430937",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AMD",
+                    "relevance_score": "0.701166",
+                    "ticker_sentiment_score": "0.444495",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.740795",
+                    "ticker_sentiment_score": "0.432139",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AVGO",
+                    "relevance_score": "0.725658",
+                    "ticker_sentiment_score": "0.430571",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Analyzing Apple In Comparison To Competitors In Technology Hardware, Storage & Peripherals Industry -",
+            "url": "https://www.benzinga.com/news/26/10/62432270/analyzing-apple-comparison-competitors-technology-hardware-storage-amp-peripherals-industry",
+            "time_published": "20261019T095928",
+            "authors": [
+                "Benzinga Staff Writer"
+            ],
+            "summary": "This article analyzes Apple's financial performance and market position relative to its competitors in the Technology Hardware, Storage & Peripherals industry. It highlights Apple's premium valuation through high P/E, P/B, and P/S ratios, while also noting its strong profitability, ROE, EBITDA, and gross profit. However, the report points out Apple's significantly lower revenue growth compared to the industry average and its favorable debt-to-equity ratio.",
+            "banner_image": "https://cdn.benzinga.com/cdn-cgi/image/width=3840,format=auto,quality=85/files/images/story/2025/07/24/article-header-background-image.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "Benzinga",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.915553"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.809636"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.707890"
+                }
+            ],
+            "overall_sentiment_score": -0.045384,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.041174",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HPE",
+                    "relevance_score": "0.600695",
+                    "ticker_sentiment_score": "-0.121557",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NTAP",
+                    "relevance_score": "0.612402",
+                    "ticker_sentiment_score": "0.014042",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "WDC",
+                    "relevance_score": "0.635193",
+                    "ticker_sentiment_score": "0.004468",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "STX",
+                    "relevance_score": "0.609444",
+                    "ticker_sentiment_score": "0.005559",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Form 4 Blackstone Inc For: 19 October By Investing.com",
+            "url": "https://ca.investing.com/news/stock-market-news/form-4-blackstone-inc-for-19-october-93CH-4887579",
+            "time_published": "20261019T091011",
+            "authors": [
+                "Investing.com"
+            ],
+            "summary": "The article \"Form 4 Blackstone Inc For: 19 October\" reports on a Form 4 filing for Blackstone Inc. on October 19. It notes the specific date of the filing and mentions Blackstone Inc. with its stock symbol BX and a slight positive change. The content primarily states the filing without providing further details about its contents or implications.",
+            "banner_image": "https://content-media.investing.com/news/moved_LYNXMPEM3S10Z_1200_L.jpg",
+            "source": "Investing.com Canada",
+            "category_within_source": "General",
+            "source_domain": "Investing.com Canada",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.917377"
+                }
+            ],
+            "overall_sentiment_score": 0.103787,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BX",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.016850",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AVGO",
+                    "relevance_score": "0.643304",
+                    "ticker_sentiment_score": "0.233577",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.603068",
+                    "ticker_sentiment_score": "0.341477",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.638064",
+                    "ticker_sentiment_score": "-0.103243",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Apple Inc. $AAPL Stock: Eclectic Associates Inc. ADV Decreases Holdings",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-stock-eclectic-associates-inc-adv-decreases-holdings-2026-10-19/",
+            "time_published": "20261019T071010",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Eclectic Associates Inc. ADV reduced its stake in Apple Inc. (NASDAQ:AAPL) by 13.6% in the third quarter, selling 5,859 shares and retaining 37,204 shares valued at $12.39 million. This adjustment comes as Apple reports stronger-than-expected quarterly results and positive sentiment around its new iPhone Duo, despite regulatory pressures and ongoing AI-related concerns. Analysts maintain a \"Moderate Buy\" rating for Apple with an average price target of $340.39.",
+            "banner_image": "https://www.marketbeat.com/logos/apple-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.933829"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.909718"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.807529"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.745436"
+                }
+            ],
+            "overall_sentiment_score": 0.189426,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.127836",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.633992",
+                    "ticker_sentiment_score": "0.228072",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Apple Set to Unveil New MacBook Pro, iMac, and iPad Mini Models",
+            "url": "https://www.indianewsnetwork.com/en/apple-set-unveil-new-macbook-pro-imac-ipad-mini-models-20261018",
+            "time_published": "20261019T063705",
+            "authors": [
+                "India News Network"
+            ],
+            "summary": "Apple is rumored to announce new models of the MacBook Pro, iMac, and iPad Mini, with a potential launch between October 27 and 28. This update aligns with Apple's strategy to enhance performance and incorporate the latest technology, maintaining its competitive edge. The anticipated event is expected to feature advancements in processing power and battery efficiency, further strengthening Apple's brand presence.",
+            "banner_image": "https://cdn.optcms.com/www.indianewsnetwork.com/assets/2026/202610/20261018-img-20261018-485d5ee090f9735a.jpg",
+            "source": "India News Network",
+            "category_within_source": "General",
+            "source_domain": "India News Network",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.912272"
+                }
+            ],
+            "overall_sentiment_score": 0.407794,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.383242",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Q3 PC units down 22.4% YoY",
+            "url": "https://www.electronicsweekly.com/news/business/q3-pc-units-down-22-4-yoy-2026-10/",
+            "time_published": "20261019T050959",
+            "authors": [
+                "David Manners"
+            ],
+            "summary": "PC shipments in Q3 2026 declined by 22.4% year-over-year to 55.4 million units, primarily due to higher memory and storage costs leading to increased PC pricing. This made replacement purchases less affordable for consumers and shifted business spending towards workstations and AI PCs. All top six worldwide PC vendors experienced declines, with Lenovo maintaining market leadership despite a 22.4% drop and Apple showing the lowest decline among them.",
+            "banner_image": "https://static.electronicsweekly.com/wp-content/uploads/2026/10/16123007/IMG_0162.webp",
+            "source": "Electronics Weekly",
+            "category_within_source": "General",
+            "source_domain": "Electronics Weekly",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.936983"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.848183"
+                }
+            ],
+            "overall_sentiment_score": -0.130385,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IT",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "-0.128465",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HPQ",
+                    "relevance_score": "0.900185",
+                    "ticker_sentiment_score": "-0.268076",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "DELL",
+                    "relevance_score": "0.726037",
+                    "ticker_sentiment_score": "-0.201799",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.912082",
+                    "ticker_sentiment_score": "0.133111",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AMD",
+                    "relevance_score": "0.627203",
+                    "ticker_sentiment_score": "-0.142167",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Starboard Sees Big Upside at Skyworks After Qorvo Buy, With At Least $500M in Savings on the Table",
+            "url": "https://www.briefs.co/news/starboard-sees-big-upside-at-skyworks-after-qorvo-buy-with-a/",
+            "time_published": "20261019T031208",
+            "authors": [
+                "Milena Thomas"
+            ],
+            "summary": "Starboard Value has acquired a stake in Skyworks Solutions through its acquisition of Qorvo, anticipating significant upside. The activist investor projects at least $500 million in annual cost savings within three years and operating margins of 30-35% in two to three years. Starboard believes the market has not fully accounted for these potential savings and future margin improvements.",
+            "banner_image": "https://www.briefs.co/wp-content/uploads/2026/10/starboard-sees-big-upside-at-skyworks-after-qorvo-buy-with-a.png",
+            "source": "Briefs Finance",
+            "category_within_source": "General",
+            "source_domain": "Briefs Finance",
+            "topics": [
+                {
+                    "topic": "mergers_and_acquisitions",
+                    "relevance_score": "0.929563"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.829106"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.726707"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.608754"
+                }
+            ],
+            "overall_sentiment_score": 0.218229,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SWKS",
+                    "relevance_score": "0.978773",
+                    "ticker_sentiment_score": "0.401372",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "QCOM",
+                    "relevance_score": "0.627448",
+                    "ticker_sentiment_score": "0.230108",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.733567",
+                    "ticker_sentiment_score": "0.123108",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NXPI",
+                    "relevance_score": "0.563368",
+                    "ticker_sentiment_score": "0.107606",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Apple's Foldable iPhone Demand Surges with Long Delivery Estimates",
+            "url": "https://intellectia.ai/news/stock/apples-foldable-iphone-demand-surges-with-long-delivery-estimates",
+            "time_published": "20261019T024006",
+            "authors": [
+                "Emily J. Thompson"
+            ],
+            "summary": "Apple's new foldable iPhone Duo has seen unprecedented demand, with delivery estimates for preorders starting October 16th pushed back to January 2027. This indicates strong market interest, with Evercore ISI projecting sales could exceed 14 million units and generate $28 billion in revenue. Despite this positive outlook, some analysts like JPMorgan have trimmed near-term estimates due to a new seasonality in iPhone revenues, while maintaining a long-term \"Overweight\" rating.",
+            "banner_image": null,
+            "source": "Intellectia AI",
+            "category_within_source": "General",
+            "source_domain": "Intellectia AI",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.906721"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.817424"
+                }
+            ],
+            "overall_sentiment_score": 0.031029,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.417693",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NFLX",
+                    "relevance_score": "0.834713",
+                    "ticker_sentiment_score": "-0.440315",
+                    "ticker_sentiment_label": "Bearish"
+                }
+            ]
+        },
+        {
+            "title": "AAPL, TSLA, NFLX, GME, RKLB: Why Retail Traders Couldn\u2019t Take Their Eyes Off These Stocks Last Week",
+            "url": "https://www.tradingview.com/news/stocktwits:40e203df2094b:0-aapl-tsla-nflx-gme-rklb-why-retail-traders-couldn-t-take-their-eyes-off-these-stocks-last-week/",
+            "time_published": "20261019T020430",
+            "authors": [],
+            "summary": "Last week, several major stocks including Apple, Netflix, GameStop, Tesla, and Rocket Lab drew significant retail trader attention due to various corporate developments. Apple's new foldable iPhone saw high demand, Netflix announced job cuts, and GameStop experienced continued insider buying. Meanwhile, Tesla unveiled a redesigned Roadster with rocket technology, and Rocket Lab postponed its Neutron rocket launch, causing a stock plunge.",
+            "banner_image": null,
+            "source": "TradingView",
+            "category_within_source": "General",
+            "source_domain": "TradingView",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.940923"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.834850"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.735034"
+                }
+            ],
+            "overall_sentiment_score": 0.031977,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.341413",
+                    "ticker_sentiment_score": "0.008822",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Trump\u2019s Russia Tariff Waiver Helps Apple, Eliminates Tariff Advantage for CF and CVR Partners",
+            "url": "https://www.benzinga.com/markets/commodities/26/10/62429536/trumps-russia-tariff-waiver-helps-apple-eliminates-tariff-advantage-for-cf-and-cvr-partners",
+            "time_published": "20261018T171313",
+            "authors": [
+                "Benzinga Weekend Correspondent",
+                "Benzinga Staff Writer"
+            ],
+            "summary": "President Trump's waiver of sanctions and tariffs under the Lindsey O. Graham Sanctioning Russia and Iran Act provides temporary relief for Apple and other companies manufacturing in China and India, preventing potential 100% tariffs on imported goods. This move also benefits diesel consumers by keeping Russian fuel flowing, but it eliminates a potential advantage for domestic fertilizer producers like CF Industries Holdings Inc. and CVR Partners LP, who might have benefited from increased protection. The waiver, however, is temporary, with a 60-day review period that could lead to a reversal of the decision in December.",
+            "banner_image": "https://cdn.benzinga.com/cdn-cgi/image/width=3840,format=auto,quality=85/files/images/story/2026/10/18/President-Trump-Auto-Tariffs-Announcemen.jpg",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "Benzinga",
+            "topics": [
+                {
+                    "topic": "economy_fiscal",
+                    "relevance_score": "0.920000"
+                },
+                {
+                    "topic": "economy_macro",
+                    "relevance_score": "0.845165"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.721333"
+                },
+                {
+                    "topic": "energy_transportation",
+                    "relevance_score": "0.722646"
+                },
+                {
+                    "topic": "manufacturing",
+                    "relevance_score": "0.647023"
+                }
+            ],
+            "overall_sentiment_score": 0.025466,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "UAN",
+                    "relevance_score": "0.988317",
+                    "ticker_sentiment_score": "-0.300922",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "CF",
+                    "relevance_score": "0.934098",
+                    "ticker_sentiment_score": "-0.314576",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.891789",
+                    "ticker_sentiment_score": "0.441567",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "VLO",
+                    "relevance_score": "0.600753",
+                    "ticker_sentiment_score": "0.110727",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MPC",
+                    "relevance_score": "0.614697",
+                    "ticker_sentiment_score": "0.103708",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "HEQQ ETF Holdings List \u2014 FWB:HEQQ",
+            "url": "https://www.tradingview.com/symbols/FWB-HEQQ/holdings/",
+            "time_published": "20261018T151131",
+            "authors": [],
+            "summary": "This article provides a detailed list of the holdings for the HEQQ ETF (JPMorgan ETFs Ireland ICAV - Nasdaq Hedged Equity Laddered Overlay Active UCITS ETF) as of October 15, 2026. It outlines the top holdings including NVIDIA, Apple, Microsoft, and Alphabet, along with their respective weight percentages, share counts, and market values. The ETF's composition is presented to give investors insight into its underlying assets.",
+            "banner_image": "https://s3-symbol-logo.tradingview.com/jpmorgan--big.svg",
+            "source": "TradingView",
+            "category_within_source": "General",
+            "source_domain": "TradingView",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.935001"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.713603"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.624246"
+                }
+            ],
+            "overall_sentiment_score": 0.10928,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HEQQ",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.100110",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.844983",
+                    "ticker_sentiment_score": "0.135111",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.746380",
+                    "ticker_sentiment_score": "0.131928",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.626208",
+                    "ticker_sentiment_score": "0.133044",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.609254",
+                    "ticker_sentiment_score": "0.112256",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Roundup: Apple's UWB, Realtek's Wi-Fi 8, Extreme Networks wins award, Brazil's 6 GHz dispute continues, & Japan's Wi2 extends OpenRoaming",
+            "url": "https://wifinowglobal.com/news-blog/roundup-apples-uwb-realteks-wi-fi-8-extreme-networks-wins-award-brazils-6-ghz-dispute-continues-japans-wi2-extends-openroaming/",
+            "time_published": "20261018T121254",
+            "authors": [
+                "Claus Hetting"
+            ],
+            "summary": "This roundup covers several significant developments in the Wi-Fi and connectivity industry. Apple is integrating UWB for hands-free smart home access, while Realtek and Sagemcom are advancing Wi-Fi 8 solutions with features like Multi-AP Coordination and broader service platforms. Extreme Networks received an award for its multi-beam stadium Wi-Fi, Brazil continues its contentious 6 GHz spectrum debate, and Japan's Wi2 has expanded OpenRoaming across numerous municipalities.",
+            "banner_image": "https://cdn.wifinowglobal.com/uploads/2026/10/NewTopRoundup-1024x576.png",
+            "source": "Wi-Fi NOW Global",
+            "category_within_source": "General",
+            "source_domain": "Wi-Fi NOW Global",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                }
+            ],
+            "overall_sentiment_score": 0.181013,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "EXTR",
+                    "relevance_score": "0.882441",
+                    "ticker_sentiment_score": "0.324943",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.766733",
+                    "ticker_sentiment_score": "0.341351",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CSCO",
+                    "relevance_score": "0.590844",
+                    "ticker_sentiment_score": "-0.139637",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Dimensional US Core Equity Market ETF (DFAU) Stock Price, Holdings, Dividend Yield",
+            "url": "https://www.gurufocus.com/etf/DFAU/summary?ref=etf-stock&r=caf6fe0e0db70d936033da5461e60141&utm_source=yahoo_finance&utm_medium=syndication&utm_campaign=headlines&utm_content=oracle_%28orcl%29_sees_%2466.8_million_in_net_etf_buying_on_oct._14&utm_term=ORCL",
+            "time_published": "20261018T111419",
+            "authors": [],
+            "summary": "This article provides a comprehensive overview of the Dimensional US Core Equity Market ETF (DFAU), detailing its current stock price, key statistics, top holdings, and dividend information. As of the latest N-PORT filing on 2026-07-31, the ETF manages $12.40 billion across 2178 stocks, with top holdings including NVIDIA, Apple, and Microsoft. The report also covers the ETF's performance metrics, financial strength, and historical data.",
+            "banner_image": null,
+            "source": "GuruFocus",
+            "category_within_source": "General",
+            "source_domain": "GuruFocus",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.929731"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.729565"
+                }
+            ],
+            "overall_sentiment_score": 0.300337,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DFAU",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.278732",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.833593",
+                    "ticker_sentiment_score": "0.315726",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.800839",
+                    "ticker_sentiment_score": "0.308777",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.825649",
+                    "ticker_sentiment_score": "0.316267",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.720839",
+                    "ticker_sentiment_score": "0.323842",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Apple News: iPhone Duo Demand, $5 Trillion Valuation And China AI Plans - Apple (NASDAQ:AAPL)",
+            "url": "https://www.benzinga.com/markets/tech/26/10/62429143/apple-iphone-duo-preorders-5-trillion-ai-china",
+            "time_published": "20261018T110005",
+            "authors": [
+                "Mohd Haider"
+            ],
+            "summary": "Apple Inc. has been in the spotlight due to high demand for its new iPhone Duo, reaching a $5 trillion market valuation, and its plans for launching Apple Intelligence in China. The iPhone Duo preorders sold out quickly, leading to extended delivery estimates. Meanwhile, Meta CEO Mark Zuckerberg noted that his company's Muse Spark AI model runs well on new Mac Studios thanks to collaboration with Apple.",
+            "banner_image": "https://cdn.benzinga.com/cdn-cgi/image/width=3840,format=auto,quality=85/files/images/story/2026/10/18/Cupertino--California--September-25--202.jpg",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "Benzinga",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.916038"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.836732"
+                },
+                {
+                    "topic": "economy_macro",
+                    "relevance_score": "0.607352"
+                },
+                {
+                    "topic": "retail_wholesale",
+                    "relevance_score": "0.618669"
+                }
+            ],
+            "overall_sentiment_score": 0.229723,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.462531",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.628125",
+                    "ticker_sentiment_score": "0.121873",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.573754",
+                    "ticker_sentiment_score": "0.110382",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "iPhone Duo Preorders, AAPL Crosses $5 Trillion and More: This Week in Appleverse",
+            "url": "https://www.tradingview.com/news/benzinga:05748d573094b:0-iphone-duo-preorders-aapl-crosses-5-trillion-and-more-this-week-in-appleverse/",
+            "time_published": "20261018T103858",
+            "authors": [],
+            "summary": "Apple Inc. (AAPL) made headlines this week with its iPhone Duo preorders selling out rapidly and the company's market capitalization surpassing $5 trillion. Other notable news includes Meta CEO Mark Zuckerberg highlighting Apple hardware for AI, and Apple's plans to launch Apple Intelligence in China.",
+            "banner_image": null,
+            "source": "TradingView",
+            "category_within_source": "General",
+            "source_domain": "TradingView",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.805035"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.715467"
+                },
+                {
+                    "topic": "retail_wholesale",
+                    "relevance_score": "0.600132"
+                }
+            ],
+            "overall_sentiment_score": 0.26001,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.440129",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.646787",
+                    "ticker_sentiment_score": "0.105280",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "117,468 AT&T Inc. $T Shares Sold by SteelPeak Wealth LLC",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-117468-att-inc-t-shares-sold-by-steelpeak-wealth-llc-2026-10-18/",
+            "time_published": "20261018T101659",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "SteelPeak Wealth LLC reduced its stake in AT&T Inc. by 37.6% in the third quarter, selling 117,468 shares and retaining 194,834 shares valued at $4.75 million. This move comes as AT&T prioritizes U.S. operations, including fiber and 5G, with recent strategic sales and acquisitions, while facing competitive pressures and awaiting Q3 earnings. The stock currently offers a 4.7% dividend yield and holds a \"Moderate Buy\" consensus rating from analysts.",
+            "banner_image": "https://www.marketbeat.com/logos/139387-attlogo-1200x675.jpg",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.924478"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.928855"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.828885"
+                },
+                {
+                    "topic": "mergers_and_acquisitions",
+                    "relevance_score": "0.715066"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.614272"
+                }
+            ],
+            "overall_sentiment_score": -0.096053,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "T",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.140294",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.624325",
+                    "ticker_sentiment_score": "-0.146120",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "IBM",
+                    "relevance_score": "0.625682",
+                    "ticker_sentiment_score": "-0.109698",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOGL",
+                    "relevance_score": "0.630437",
+                    "ticker_sentiment_score": "-0.145964",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.613348",
+                    "ticker_sentiment_score": "-0.123827",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "1,837 Apple Inc. $AAPL Shares Sold by Green Ridge Wealth Planning LLC",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-1837-apple-inc-aapl-shares-sold-by-green-ridge-wealth-planning-llc-2026-10-18/",
+            "time_published": "20261018T091818",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Green Ridge Wealth Planning LLC sold 1,837 shares of Apple (AAPL) in Q3, reducing its stake by 5.7% but still holding over 30,000 shares valued at $10.1 million. Institutional investors own 67.73% of Apple, and analysts generally maintain a \"Moderate Buy\" rating with a $340.39 average price target. Despite strong quarterly earnings and iPhone demand, the company faces regulatory pressures and concerns about AI competitiveness.",
+            "banner_image": "https://www.marketbeat.com/logos/apple-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.922153"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.844225"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.715644"
+                }
+            ],
+            "overall_sentiment_score": 0.219755,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.262599",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.611156",
+                    "ticker_sentiment_score": "0.149195",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Apple Inc. $AAPL Shares Acquired by Sapient Capital LLC",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-shares-acquired-by-sapient-capital-llc-2026-10-18/",
+            "time_published": "20261018T091818",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Sapient Capital LLC increased its stake in Apple Inc. by 0.3% in the third quarter, acquiring 3,325 additional shares, bringing its total to 1.16 million shares valued at approximately $385.7 million. Apple remains a significant holding for Sapient, representing about 5.3% of its portfolio and its third-largest investment. The article also notes recent insider sales, Apple's strong quarterly earnings, and a \"Moderate Buy\" consensus rating from analysts with an average price target of $340.39.",
+            "banner_image": "https://www.marketbeat.com/logos/apple-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.945897"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.923647"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.803495"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.708522"
+                }
+            ],
+            "overall_sentiment_score": 0.318968,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.335629",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.611785",
+                    "ticker_sentiment_score": "0.302374",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Apple Inc. $AAPL Stock: Mn Services Vermogensbeheer B.V. Raises Stake",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-stock-mn-services-vermogensbeheer-bv-raises-stake-2026-10-18/",
+            "time_published": "20261018T091818",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Mn Services Vermogensbeheer B.V. increased its stake in Apple Inc. by 6.9% in the third quarter, now holding 1.87 million shares valued at $617.3 million. Apple reported strong quarterly revenue and EPS, surpassing analyst estimates, and maintains a \"Moderate Buy\" consensus rating with an average price target of $340.39. While the company benefits from strong demand for its premium iPhone Duo and an AI collaboration with Meta, it faces challenges including AI competitiveness concerns, potential UK payment regulations, and high valuation.",
+            "banner_image": "https://www.marketbeat.com/logos/apple-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.922193"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.947186"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.839058"
+                }
+            ],
+            "overall_sentiment_score": 0.327985,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.320079",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Galvin Gaustad & Stein LLC Acquires 10,077 Shares of Apple Inc. $AAPL",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-galvin-gaustad-stein-llc-acquires-10077-shares-of-apple-inc-aapl-2026-10-18/",
+            "time_published": "20261018T091818",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Galvin Gaustad & Stein LLC increased its stake in Apple Inc. (NASDAQ:AAPL) by 12.1% in the third quarter, acquiring an additional 10,077 shares and bringing its total holdings to 93,467 shares valued at approximately $31.1 million. Despite Apple's shares trading near record highs and exceeding earnings estimates, the company faces potential challenges including weakening iPhone demand, AI-related competition, and regulatory pressures. Institutional investors own 67.73% of Apple, and analysts generally maintain a \"Moderate Buy\" rating with an average target price of $340.39.",
+            "banner_image": "https://www.marketbeat.com/logos/apple-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.929520"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.847500"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.725788"
+                }
+            ],
+            "overall_sentiment_score": 0.222823,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.219439",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Professional Advisory Services Inc. Acquires 87,398 Shares of Apple Inc. $AAPL",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-professional-advisory-services-inc-acquires-87398-shares-of-apple-inc-aapl-2026-10-18/",
+            "time_published": "20261018T091817",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Professional Advisory Services Inc. significantly increased its stake in Apple Inc. by 88.1% in the third quarter, acquiring 87,398 additional shares, bringing its total to 186,613 shares valued at $62.1 million. Apple is now the firm's second-largest holding, representing 7.3% of its portfolio. The article highlights Apple's strong quarterly revenue and EPS beat, positive sentiment from demand for its new iPhone Duo and a potential AI collaboration with Meta, while also noting risks such as regulatory pressures and insider selling.",
+            "banner_image": "https://www.marketbeat.com/logos/apple-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.902896"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.847846"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.845347"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.726880"
+                },
+                {
+                    "topic": "mergers_and_acquisitions",
+                    "relevance_score": "0.635594"
+                }
+            ],
+            "overall_sentiment_score": 0.153059,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.953083",
+                    "ticker_sentiment_score": "0.261315",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.711836",
+                    "ticker_sentiment_score": "0.279225",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.574597",
+                    "ticker_sentiment_score": "-0.104743",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "New Apple HomePods with AI are coming. Everything we know.",
+            "url": "https://mashable.com/tech/apple-homepods-siri-ai-explainer",
+            "time_published": "20261018T083842",
+            "authors": [
+                "Chance Townsend"
+            ],
+            "summary": "Apple is reportedly preparing a significant expansion of its smart home product lineup, driven by the upcoming release of its AI-powered Siri with Apple Intelligence in iOS 27. Leaks and reports suggest several new devices, including a HomePod with a built-in display, an updated Apple TV 4K, HomePod mini 2, HomePod 3, a security camera, a video doorbell, and a tabletop robotic home hub. These new products are expected to launch starting this fall, marking a long-awaited revitalization of Apple's home ecosystem.",
+            "banner_image": "https://helios-i.mashable.com/imagery/articles/05F6NQF7orIIn7JVlstkpUd/hero-image.fill.size_1248x702.v1787589628.jpg",
+            "source": "Mashable",
+            "category_within_source": "General",
+            "source_domain": "Mashable",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                }
+            ],
+            "overall_sentiment_score": 0.478654,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.471098",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "HEQQ ETF Holdings List \u2014 DUS:HEQQ",
+            "url": "https://www.tradingview.com/symbols/DUS-HEQQ/holdings/",
+            "time_published": "20261018T081248",
+            "authors": [],
+            "summary": "This article provides the holdings list for the HEQQ ETF (JPMorgan ETFs Ireland ICAV - Nasdaq Hedged Equity Laddered Overlay Active UCITS ETF) as of October 15, 2026. Key holdings include NVIDIA, Apple, Microsoft, Alphabet, and Micron Technology, detailing their weight, shares, and market value within the fund.",
+            "banner_image": "https://s3-symbol-logo.tradingview.com/jpmorgan--big.svg",
+            "source": "TradingView",
+            "category_within_source": "General",
+            "source_domain": "TradingView",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.943616"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.834556"
+                }
+            ],
+            "overall_sentiment_score": 0.114141,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HEQQ",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.146486",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.826869",
+                    "ticker_sentiment_score": "0.125024",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.771219",
+                    "ticker_sentiment_score": "0.114765",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.740003",
+                    "ticker_sentiment_score": "0.124047",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.683427",
+                    "ticker_sentiment_score": "0.144039",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Vanguard Morningstar Growth ETF Outlook Analysis",
+            "url": "https://intellectia.ai/news/stock/vanguard-morningstar-growth-etf-outlook-analysis",
+            "time_published": "20261018T081031",
+            "authors": [
+                "Emily J. Thompson"
+            ],
+            "summary": "The Vanguard Morningstar Growth ETF (VUG) has seen a 10% increase year-to-date in 2026, trading around $90, driven by its concentrated holdings in major growth stocks like Nvidia, Apple, and Alphabet. While its projected annual earnings growth rate of 15% is lower than the past five years, it still suggests earnings could double by 2030. The fund's valuation is expected to adjust, with its P/E ratio decreasing by 2030, offering a sensible investment target despite lower anticipated annual returns compared to the last decade.",
+            "banner_image": null,
+            "source": "Intellectia AI",
+            "category_within_source": "General",
+            "source_domain": "Intellectia AI",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.911894"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.829280"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.701734"
+                },
+                {
+                    "topic": "economy_macro",
+                    "relevance_score": "0.616506"
+                }
+            ],
+            "overall_sentiment_score": 0.1733,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "VUG",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.254737",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.836483",
+                    "ticker_sentiment_score": "0.317317",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.734426",
+                    "ticker_sentiment_score": "0.242335",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GOOGL",
+                    "relevance_score": "0.637834",
+                    "ticker_sentiment_score": "0.108605",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AMD",
+                    "relevance_score": "0.586328",
+                    "ticker_sentiment_score": "-0.238502",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Form 4 Renasant Corporation: Sean M. Suggs (Director) For: 30 September",
+            "url": "https://ca.investing.com/news/stock-market-news/form-4-renasant-corporation-sean-m-suggs-director-for-30-september-93CH-4886825",
+            "time_published": "20261018T074020",
+            "authors": [
+                "Investing.com"
+            ],
+            "summary": "This article reports a Form 4 filing for Renasant Corporation, indicating that Sean M. Suggs, a Director, made a transaction on September 30. The filing provides details about changes in the beneficial ownership of company stock by an insider. The specific nature of the transaction is not detailed in this brief report.",
+            "banner_image": "https://content-media.investing.com/news/moved_LYNXMPEM450ND_1200_L.jpg",
+            "source": "Investing.com Canada",
+            "category_within_source": "General",
+            "source_domain": "Investing.com Canada",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.943634"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.744406"
+                }
+            ],
+            "overall_sentiment_score": -0.077949,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "RNST",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.025997",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.649635",
+                    "ticker_sentiment_score": "0.038690",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.625582",
+                    "ticker_sentiment_score": "-0.122395",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Fenimore Asset Management Inc Purchases 550,558 Shares of Apple Inc. $AAPL",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-fenimore-asset-management-inc-purchases-550558-shares-of-apple-inc-aapl-2026-10-18/",
+            "time_published": "20261018T073929",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Fenimore Asset Management Inc significantly increased its stake in Apple (AAPL) during the third quarter, purchasing 550,558 additional shares, bringing its total holdings to 563,854 shares valued at $187.8 million. Despite this strong institutional interest and Apple's robust Q3 earnings, the company faces potential headwinds from competitive AI landscapes, regulatory pressure on Apple Pay, and recent insider selling. Analyst sentiment remains a \"Moderate Buy\" with an average price target of $340.39.",
+            "banner_image": "https://www.marketbeat.com/logos/apple-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.944941"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.843951"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.718561"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.638176"
+                }
+            ],
+            "overall_sentiment_score": 0.163841,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.273387",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.600841",
+                    "ticker_sentiment_score": "0.109250",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.645841",
+                    "ticker_sentiment_score": "0.140310",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Apple Inc. $AAPL Shares Purchased by CoreCap Advisors LLC",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-shares-purchased-by-corecap-advisors-llc-2026-10-18/",
+            "time_published": "20261018T073533",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "CoreCap Advisors LLC increased its stake in Apple Inc. by 8.7% during the third quarter, bringing their total holdings to 206,627 shares valued at $68.2 million. Institutional investors collectively own 67.73% of Apple, while company insiders have recently sold shares primarily to cover tax obligations. Analysts maintain a \"Moderate Buy\" rating for Apple with a consensus price target of $340.39, following the company's strong quarterly earnings and revenue report.",
+            "banner_image": "https://www.marketbeat.com/logos/apple-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.922733"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.846865"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.745946"
+                }
+            ],
+            "overall_sentiment_score": 0.25341,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.985679",
+                    "ticker_sentiment_score": "0.237221",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.723953",
+                    "ticker_sentiment_score": "0.305397",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "CRM",
+                    "relevance_score": "0.566098",
+                    "ticker_sentiment_score": "0.225589",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "5,209 Apple Inc. $AAPL Shares Sold by Bell Asset Management Ltd",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-5209-apple-inc-aapl-shares-sold-by-bell-asset-management-ltd-2026-10-18/",
+            "time_published": "20261018T073533",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Bell Asset Management Ltd decreased its stake in Apple Inc. by 12.3% in the third quarter, selling 5,209 shares but still holding 37,090 shares valued at $11.8 million. Insiders like Timothy Cook and John Ternus also sold shares to cover tax obligations from vested equity awards, totaling about $93.7 million in sales over 90 days. Despite these sales, analysts maintain a \"Moderate Buy\" rating with an average price target of $340.39, reflecting strong recent earnings performance and positive sentiment around new product launches like the iPhone Duo, although some concerns remain regarding AI competition and regulatory challenges.",
+            "banner_image": "https://www.marketbeat.com/logos/apple-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.929488"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.837142"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.714884"
+                }
+            ],
+            "overall_sentiment_score": 0.080748,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "-0.123126",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.604240",
+                    "ticker_sentiment_score": "0.221704",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GOOGL",
+                    "relevance_score": "0.625039",
+                    "ticker_sentiment_score": "0.132988",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Apple Inc. $AAPL Stock Position Cut by Diversified Management Inc.",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-stock-position-cut-by-diversified-management-inc-2026-10-18/",
+            "time_published": "20261018T073533",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Diversified Management Inc. reduced its stake in Apple Inc. by 3.8% in the third quarter, though Apple remains its third-largest holding. Institutional ownership for Apple stands at 67.73%, while insiders recently sold a significant amount of stock, primarily to cover tax obligations on vested equity awards. Analyst sentiment is generally positive, with a \"Moderate Buy\" rating, but concerns exist regarding future iPhone demand and competitive positioning in AI.",
+            "banner_image": "https://www.marketbeat.com/logos/apple-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.911247"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.826553"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.741792"
+                }
+            ],
+            "overall_sentiment_score": 0.174912,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.192586",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "META",
+                    "relevance_score": "0.605029",
+                    "ticker_sentiment_score": "0.141420",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Cirrus Logic (NASDAQ:CRUS) Stock Rating Lowered by Wall Street Zen",
+            "url": "https://www.marketbeat.com/instant-alerts/analyst-cirrus-logic-nasdaq-crus-stock-rating-lowered-by-wall-street-zen-2026-10-18/",
+            "time_published": "20261018T054125",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Wall Street Zen downgraded Cirrus Logic (NASDAQ:CRUS) from \"Buy\" to \"Hold,\" reflecting a general analyst consensus of \"Hold\" with an average price target of $150.71. Despite modestly beating EPS expectations and showing 12.9% year-over-year revenue growth, the stock opened near its 52-week low at $107.87, significantly below its 200-day moving average. Insider selling has occurred, while institutional investors maintain a large stake in the company.",
+            "banner_image": "https://www.marketbeat.com/logos/cirrus-logic-inc-logo-1200x675.png?v=20240425091016",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.938921"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.820905"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.733083"
+                }
+            ],
+            "overall_sentiment_score": -0.167147,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CRUS",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "-0.202481",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.715054",
+                    "ticker_sentiment_score": "-0.207584",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "MU",
+                    "relevance_score": "0.621739",
+                    "ticker_sentiment_score": "-0.133594",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Honda Motor Co Ltd (HDM.HA) stock price, news, quote and history",
+            "url": "https://uk.finance.yahoo.com/quote/HDM.HA/sec-filing/",
+            "time_published": "20261018T034005",
+            "authors": [],
+            "summary": "This article provides financial information for Honda Motor Co Ltd (HDM.HA), including its stock price, news, quotes, and historical data. As of October 16, 2026, the stock was trading at 10.00 EUR, up 1.02%. The performance overview shows significant negative returns for HDM.HA over the year-to-date, 1-year, and 3-year periods compared to the Nikkei 225 benchmark.",
+            "banner_image": null,
+            "source": "Yahoo Finance UK",
+            "category_within_source": "General",
+            "source_domain": "Yahoo Finance UK",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "manufacturing",
+                    "relevance_score": "0.809858"
+                }
+            ],
+            "overall_sentiment_score": 0.110003,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HMC",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.111377",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.639336",
+                    "ticker_sentiment_score": "0.119195",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.619834",
+                    "ticker_sentiment_score": "0.124633",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.621285",
+                    "ticker_sentiment_score": "0.116102",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.633261",
+                    "ticker_sentiment_score": "0.144080",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Goldman Sachs Q2 2026: Record Revenue $20.34B, EPS Surge 92%, ROE 23.5% on Equities Boom",
+            "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262127357-goldman-sachs-gs-q2-2026-20-34b-revenue-39-pct-eps-20-98-92-pct-roe-23-5-equities-7-42b-tradingkey",
+            "time_published": "20261018T010908",
+            "authors": [
+                "Arslan Ali"
+            ],
+            "summary": "Goldman Sachs reported record revenues of $20.34 billion in Q2 2026, marking a 39% year-on-year increase, primarily driven by strong performances in Global Banking and Markets and record Asset & Wealth Management inflows of $4.04 trillion. Despite challenges in Platform Solutions, the company increased its dividend by 11% to $5.00, reflecting strong capital generation and confidence in sustained profitability. Technically, the stock shows consolidation within a symmetrical triangle, with a potential breakout target of $1,077 to $1,101 if it surpasses $1,055.",
+            "banner_image": "https://resource.tradingkey.com/uploads/20260824/GS-52ff0518bded425aa3246813d6affdd8.jpg",
+            "source": "TradingKey",
+            "category_within_source": "General",
+            "source_domain": "TradingKey",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.932234"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.716191"
+                }
+            ],
+            "overall_sentiment_score": 0.255031,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GS",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.701544",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.712742",
+                    "ticker_sentiment_score": "-0.271052",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Form 144 IPG PHOTONICS CORP For: 17 October By Investing.com",
+            "url": "https://ca.investing.com/news/stock-market-news/form-144-ipg-photonics-corp-for-17-october-93CH-4886700",
+            "time_published": "20261017T234600",
+            "authors": [
+                "Investing.com"
+            ],
+            "summary": "This article announces the filing of Form 144 by IPG Photonics Corp for October 17. Form 144 is a notice of the intent to sell restricted securities. The brief notice indicates a regulatory filing related to the company's stock, with its stock symbol IPGP mentioned alongside a -3.73% change.",
+            "banner_image": "https://content-media.investing.com/news/moved_LYNXMPEM40318_1200_L.jpg",
+            "source": "Investing.com Canada",
+            "category_within_source": "General",
+            "source_domain": "Investing.com Canada",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.910616"
+                }
+            ],
+            "overall_sentiment_score": -0.073289,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IPGP",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.012650",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AVGO",
+                    "relevance_score": "0.628370",
+                    "ticker_sentiment_score": "-0.365779",
+                    "ticker_sentiment_label": "Bearish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.649556",
+                    "ticker_sentiment_score": "0.268114",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Buyers Circle the MSCI World ETF as AI Jitters Rattle Tech-Heavy Markets",
+            "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/buyers-circle-the-msci-world-etf-as-ai-jitters-rattle-tech-heavy-markets/70351883",
+            "time_published": "20261017T231217",
+            "authors": [
+                "Editorial boerse-global.de"
+            ],
+            "summary": "The iShares MSCI World ETF saw $344.2 million in buy-side position changes on October 13, despite a recent tech sector wobble driven by concerns over AI investment profitability. Investors appear to be using the ETF to express a broadly bullish stance on equities, treating the dip as a buying opportunity, with significant additions in mega-cap tech stocks like Nvidia, Apple, and Microsoft. This inflow suggests a continued preference for broad global exposure even amidst short-term market turbulence and AI spending doubts.",
+            "banner_image": "https://mdb.ad-hoc-news.de/bild/bild-2823702_1200_0.webp",
+            "source": "ad-hoc-news.de",
+            "category_within_source": "General",
+            "source_domain": "ad-hoc-news.de",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.911569"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.847701"
+                },
+                {
+                    "topic": "economy_monetary",
+                    "relevance_score": "0.630223"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.749990"
+                }
+            ],
+            "overall_sentiment_score": 0.164848,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "URTH",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.305064",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.865823",
+                    "ticker_sentiment_score": "0.206214",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.763902",
+                    "ticker_sentiment_score": "0.210861",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.733367",
+                    "ticker_sentiment_score": "0.213077",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "LRCX",
+                    "relevance_score": "0.570146",
+                    "ticker_sentiment_score": "-0.235940",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Fidelity Enhanced Large Cap Growth ETF (FELG) Holdings",
+            "url": "https://ca.finance.yahoo.com/quote/FELG/holdings/",
+            "time_published": "20261017T214125",
+            "authors": [],
+            "summary": "This article details the holdings and sector weightings of the Fidelity Enhanced Large Cap Growth ETF (FELG). It highlights the top 10 holdings, which account for 58.52% of total assets and are heavily concentrated in technology companies like NVIDIA, Apple, and Alphabet. The ETF invests primarily in common stocks from the Russell 1000\u00ae Growth Index, focusing on large-cap growth segments of the U.S. equity market.",
+            "banner_image": null,
+            "source": "Yahoo! Finance Canada",
+            "category_within_source": "General",
+            "source_domain": "Yahoo! Finance Canada",
+            "topics": [
+                {
+                    "topic": "finance",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.937075"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.804411"
+                },
+                {
+                    "topic": "life_sciences",
+                    "relevance_score": "0.624045"
+                }
+            ],
+            "overall_sentiment_score": 0.117581,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FELG",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.124191",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.908545",
+                    "ticker_sentiment_score": "0.144990",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.832206",
+                    "ticker_sentiment_score": "0.116371",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GOOGL",
+                    "relevance_score": "0.710328",
+                    "ticker_sentiment_score": "0.107464",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AVGO",
+                    "relevance_score": "0.637386",
+                    "ticker_sentiment_score": "0.143611",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Form S-3/A Katapult Holdings Inc For: 17 October By Investing.com",
+            "url": "https://ca.investing.com/news/stock-market-news/form-s3a-katapult-holdings-inc-for-17-october-93CH-4886566",
+            "time_published": "20261017T204238",
+            "authors": [
+                "Investing.com"
+            ],
+            "summary": "This article reports on the filing of Form S-3/A by Katapult Holdings Inc. on October 17. The filing is a significant event for shareholders and potential investors, indicating corporate activities related to the company's securities. Katapult Holdings Inc. is noted with the stock symbol KPLT.",
+            "banner_image": "https://content-media.investing.com/news/moved_LYNXMPEM431A2_1200_L.jpg",
+            "source": "Investing.com Canada",
+            "category_within_source": "General",
+            "source_domain": "Investing.com Canada",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.911768"
+                }
+            ],
+            "overall_sentiment_score": -0.114781,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "KPLT",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.027864",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AVGO",
+                    "relevance_score": "0.628557",
+                    "ticker_sentiment_score": "-0.320988",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.628911",
+                    "ticker_sentiment_score": "0.216930",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.633436",
+                    "ticker_sentiment_score": "-0.233639",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Verizon Prices iPhone Handoff at $10 Monthly, Double T-Mobile's Fee",
+            "url": "https://finance.biggo.com/news/6eeac272-e85b-45b6-8dea-c237a378ffc9",
+            "time_published": "20261017T181517",
+            "authors": [],
+            "summary": "Verizon will charge $10 per month for Apple's iPhone Handoff feature, which is double the $5 fee T-Mobile charges and makes Verizon the most expensive early adopter of the iOS 27 number-sharing tool. The feature allows a single phone number to work across two compatible iPhones, such as the new foldable iPhone Duo and the iPhone 18 Pro. This pricing announcement comes as preorders for the iPhone Duo opened, with strong demand pushing shipping dates into January and February for some regions.",
+            "banner_image": "https://img.biggo.com/TaAAt0gyRYQf7nKopYJMEW0BOhnoI45wAYMkeNaVr08/fit/1720/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTEwLzZlZWFjMjcyLWU4NWItNDViNi04ZGVhLWMyMzdhMzc4ZmZjOV8xNzkyMjYxOTE5X2RlZmF1bHQud2VicA.webp",
+            "source": "BigGo Finance",
+            "category_within_source": "General",
+            "source_domain": "BigGo Finance",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "retail_wholesale",
+                    "relevance_score": "0.719121"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.634625"
+                }
+            ],
+            "overall_sentiment_score": 0.172433,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TMUS",
+                    "relevance_score": "0.917086",
+                    "ticker_sentiment_score": "0.177103",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "VZ",
+                    "relevance_score": "0.914993",
+                    "ticker_sentiment_score": "0.157303",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.861872",
+                    "ticker_sentiment_score": "0.265246",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "T",
+                    "relevance_score": "0.738349",
+                    "ticker_sentiment_score": "0.081586",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Freedom Holding stock closed October 16, 2026 at USD 181.57, 0.38 percent below 52-week high",
+            "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/freedom-holding-stock-closed-october-16-2026-at-usd-181-57-0-38-percent/70349465",
+            "time_published": "20261017T181336",
+            "authors": [
+                "Rafael M\u00fcller"
+            ],
+            "summary": "Freedom Holding stock closed at $181.57 on October 16, 2026, which was 0.38% below its 52-week high. The company's Q1 2027 earnings per share were $0.52, falling short of the $0.87 consensus estimate. The next earnings announcement is estimated for November 6, 2026, with a conference call on November 9.",
+            "banner_image": "https://mdb.ad-hoc-news.de/bild/bild-2404992_1200_0.webp",
+            "source": "ad-hoc-news.de",
+            "category_within_source": "General",
+            "source_domain": "ad-hoc-news.de",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.947008"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.835120"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.606710"
+                }
+            ],
+            "overall_sentiment_score": -0.136143,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FRHC",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "-0.139894",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SCHW",
+                    "relevance_score": "0.710090",
+                    "ticker_sentiment_score": "-0.238892",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "GOOGL",
+                    "relevance_score": "0.621785",
+                    "ticker_sentiment_score": "-0.113334",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.646041",
+                    "ticker_sentiment_score": "-0.124954",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.633647",
+                    "ticker_sentiment_score": "-0.120355",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Anterix CFO Elena Marquez sells $400,606 of stock from $80.00 to $82.50",
+            "url": "https://www.investing.com/news/insider-trading-news/anterix-cfo-elena-marquez-sells-400606-of-stock-from-8000-to-8250-93CH-4955522",
+            "time_published": "20261017T181014",
+            "authors": [
+                "Investing.com"
+            ],
+            "summary": "Anterix CFO Elena Marquez sold 4,981 shares of company stock for $400,606, at prices between $80.00 and $82.50 per share, under a pre-arranged Rule 10b5-1 trading plan. She also acquired 1,227 shares through stock options exercised at $40.00 per share. These transactions occurred after Anterix shares surged nearly 295% over the past year and the company reported strong fiscal first-quarter earnings, although InvestingPro analysis indicates the stock is currently overvalued.",
+            "banner_image": "https://content-media.investing.com/news/moved_LYNXMPEM4519D_1200_L.jpg",
+            "source": "Investing.com",
+            "category_within_source": "General",
+            "source_domain": "Investing.com",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.849701"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.941535"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.727190"
+                }
+            ],
+            "overall_sentiment_score": 0.109572,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ATEX",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "-0.213609",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.728410",
+                    "ticker_sentiment_score": "0.446033",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Globalstar (NASDAQ:GSAT) Raised to \"Hold\" at Zacks Research",
+            "url": "https://www.marketbeat.com/instant-alerts/analyst-globalstar-nasdaq-gsat-raised-to-hold-at-zacks-research-2026-10-17/",
+            "time_published": "20261017T164402",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Zacks Research upgraded Globalstar (NASDAQ:GSAT) from \"strong sell\" to \"hold,\" setting the overall analyst consensus to \"Hold\" with an average price target of $75.67. The company's shares are trading near their 52-week high, despite missing quarterly earnings estimates and experiencing a revenue decline. Insider selling totaling $56.6 million has occurred over the past 90 days, though insiders still hold approximately 60% of the stock.",
+            "banner_image": "https://www.marketbeat.com/logos/globalstar-inc-logo-1200x675.png?v=20250616053136",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.904917"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.838479"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.609475"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.600619"
+                }
+            ],
+            "overall_sentiment_score": 0.008189,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GSAT",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "-0.210391",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.576089",
+                    "ticker_sentiment_score": "0.123962",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.563686",
+                    "ticker_sentiment_score": "0.114535",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        }
+    ]
+}

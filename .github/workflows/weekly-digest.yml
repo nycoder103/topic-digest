@@ -1,0 +1,33 @@
+name: Weekly Digest
+
+on:
+  # Monday 9am UTC. No particular reason beyond "start of the work week,
+  # before most people's day gets going"; change freely once the real
+  # schedule is known.
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  run-digest:
+    name: Run quantum digest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install topic-digest
+        run: pip install -e .
+
+      - name: Run quantum digest
+        run: topic-digest run config/quantum.yaml
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
