@@ -1,0 +1,53 @@
+{
+    "quota_exceeded_response": {
+        "Information": "Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please visit https://example.invalid/premium/ to subscribe to a higher rate plan."
+    },
+    "feed_with_malformed_items": {
+        "items": "3",
+        "feed": [
+            {
+                "title": "Story Missing Its URL",
+                "time_published": "20261015T120000",
+                "summary": "This item has no url field at all.",
+                "source": "Example Wire",
+                "ticker_sentiment": [
+                    {
+                        "ticker": "IONQ",
+                        "relevance_score": "0.5",
+                        "ticker_sentiment_score": "0.1",
+                        "ticker_sentiment_label": "Neutral"
+                    }
+                ]
+            },
+            {
+                "url": "https://example.invalid/articles/no-title",
+                "time_published": "20261015T120500",
+                "summary": "This item has no title field at all.",
+                "source": "Example Wire",
+                "ticker_sentiment": [
+                    {
+                        "ticker": "IONQ",
+                        "relevance_score": "0.5",
+                        "ticker_sentiment_score": "0.1",
+                        "ticker_sentiment_label": "Neutral"
+                    }
+                ]
+            },
+            {
+                "title": "Story With an Unparseable Publish Time",
+                "url": "https://example.invalid/articles/bad-timestamp",
+                "time_published": "not-a-timestamp",
+                "summary": "This item's time_published isn't in the YYYYMMDDTHHMMSS shape.",
+                "source": "Example Wire",
+                "ticker_sentiment": [
+                    {
+                        "ticker": "IONQ",
+                        "relevance_score": "0.5",
+                        "ticker_sentiment_score": "0.1",
+                        "ticker_sentiment_label": "Neutral"
+                    }
+                ]
+            }
+        ]
+    }
+}

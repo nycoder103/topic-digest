@@ -1,0 +1,85 @@
+{
+    "items": "3",
+    "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
+    "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+    "feed": [
+        {
+            "title": "Apple Unveils Next-Generation Chip Lineup Ahead of Holiday Quarter",
+            "url": "https://example.invalid/articles/apple-next-gen-chip-lineup",
+            "time_published": "20261018T110005",
+            "authors": ["Example Newswire Staff"],
+            "summary": "Apple detailed its latest chip lineup on Sunday, emphasizing efficiency gains the company says will extend battery life across its device lineup heading into the holiday shopping season.",
+            "banner_image": null,
+            "source": "Example Newswire",
+            "category_within_source": "n/a",
+            "source_domain": "example.invalid",
+            "topics": [
+                {"topic": "Technology", "relevance_score": "0.912"}
+            ],
+            "overall_sentiment_score": 0.2841,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.998348",
+                    "ticker_sentiment_score": "0.284119",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Tech Sector Roundup: Chipmakers and Device Makers Move in Lockstep",
+            "url": "https://example.invalid/articles/tech-sector-roundup-chipmakers",
+            "time_published": "20261017T093012",
+            "authors": ["Example Newswire Staff"],
+            "summary": "A broad rally across chipmakers and device manufacturers lifted the sector on Saturday, with Apple and several suppliers posting gains after a round of upbeat analyst notes.",
+            "banner_image": null,
+            "source": "Example Markets Desk",
+            "category_within_source": "n/a",
+            "source_domain": "example.invalid",
+            "topics": [
+                {"topic": "Financial Markets", "relevance_score": "0.734"}
+            ],
+            "overall_sentiment_score": 0.1532,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.431922",
+                    "ticker_sentiment_score": "0.183421",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.509113",
+                    "ticker_sentiment_score": "0.221904",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Analyst Trims Apple Price Target Citing Slower Services Growth",
+            "url": "https://example.invalid/articles/analyst-trims-apple-price-target",
+            "time_published": "20261016T154530",
+            "authors": ["Example Newswire Staff"],
+            "summary": "An equity analyst lowered a price target on Apple shares on Friday, pointing to slower-than-expected growth in the company's services segment during the most recent quarter.",
+            "banner_image": null,
+            "source": "Example Research Wire",
+            "category_within_source": "n/a",
+            "source_domain": "example.invalid",
+            "topics": [
+                {"topic": "Earnings", "relevance_score": "0.655"}
+            ],
+            "overall_sentiment_score": -0.0932,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.812004",
+                    "ticker_sentiment_score": "-0.093211",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        }
+    ]
+}
