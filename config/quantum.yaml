@@ -59,15 +59,19 @@ source:
 # ticker-based fetching: newsletter spam and "watchlist" content that
 # mentions a ticker without being news about the company.
 #
-# `min_body_chars` is the length below which there isn't enough text to
-# summarize honestly rather than pad or hallucinate around a stub.
+# `min_body_chars` is a junk filter, not a summarization-fidelity gate:
+# stories are relayed as the source API reported them (title + its own
+# snippet + link), never expanded or rewritten by an LLM, so there's no
+# "not enough material for the model to work with" threshold to protect.
+# This just screens out the near-empty snippets (a stub with no real
+# content) that aren't worth posting at all.
 relevance:
   keywords: []
   exclude_keywords:
     - "stocks to watch"
     - "options alert"
     - "price target"
-  min_body_chars: 400
+  min_body_chars: 30
 
 # Shape and size limits for the weekly digest.
 #
