@@ -10,6 +10,7 @@ knob, it's added here once, for every topic to use.
 """
 
 from dataclasses import dataclass, field
+from datetime import date
 from pathlib import Path
 
 import yaml
@@ -208,6 +209,17 @@ class Lesson:
         )
 
 
+def _parse_date(raw: object, full_key: str) -> date:
+    if isinstance(raw, date):
+        return raw
+    if isinstance(raw, str):
+        try:
+            return date.fromisoformat(raw)
+        except ValueError:
+            pass
+    raise ConfigError(f"{full_key} is not a valid ISO date (expected e.g. 2026-10-18): {raw!r}")
+
+
 @dataclass(frozen=True)
 class ConceptTrackSection:
     """Whether a topic teaches a running syllabus alongside its news, and what's in it.
@@ -216,10 +228,16 @@ class ConceptTrackSection:
     lessons have already been sent; a duplicate would make two lessons
     indistinguishable to that bookkeeping and risks either repeating or
     silently skipping a lesson.
+
+    `start_date` anchors the pure function that picks which lesson to send
+    this week (see topic_digest.concept_track): week_number is computed from
+    the gap between today and this date, so the syllabus doesn't need any
+    persisted "which lesson did we last send" state at all.
     """
 
     enabled: bool
     syllabus: list[Lesson]
+    start_date: date
 
     @classmethod
     def from_dict(cls, data: dict) -> "ConceptTrackSection":
@@ -233,7 +251,11 @@ class ConceptTrackSection:
                 "Duplicate slug(s) in concept_track.syllabus: " + ", ".join(duplicates)
             )
 
-        return cls(enabled=enabled, syllabus=syllabus)
+        start_date = _parse_date(
+            _require(data, "start_date", "concept_track"), "concept_track.start_date"
+        )
+
+        return cls(enabled=enabled, syllabus=syllabus, start_date=start_date)
 
 
 @dataclass(frozen=True)

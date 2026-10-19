@@ -6,6 +6,7 @@ matter most: a broken or ambiguous syllabus, and a Slack webhook URL pasted
 into a public repo instead of referenced by environment variable name.
 """
 
+from datetime import date
 from pathlib import Path
 
 import pytest
@@ -41,6 +42,7 @@ def _valid_config() -> dict:
         },
         "concept_track": {
             "enabled": True,
+            "start_date": date(2026, 1, 1),
             "syllabus": [
                 {"slug": "lesson-one", "title": "Lesson One", "prompt": "Explain lesson one."},
                 {"slug": "lesson-two", "title": "Lesson Two", "prompt": "Explain lesson two."},
@@ -81,6 +83,7 @@ class TestLoadTopicValid:
             "lesson-one",
             "lesson-two",
         ]
+        assert config.concept_track.start_date == date(2026, 1, 1)
         assert config.llm.provider == "google"
         assert config.slack.username == "Example Bot"
 
@@ -122,6 +125,7 @@ class TestLoadTopicMissingKeys:
             ("digest", "max_stories"),
             ("digest", "taxonomy"),
             ("concept_track", "enabled"),
+            ("concept_track", "start_date"),
             ("llm", "provider"),
             ("llm", "api_key_env"),
             ("slack", "webhook_env"),
@@ -169,6 +173,30 @@ class TestLoadTopicSemanticValidation:
         data["slack"]["webhook_env"] = "SLACK_WEBHOOK_URL"
         config = load_topic(_write_config(tmp_path, data))
         assert config.slack.webhook_env == "SLACK_WEBHOOK_URL"
+
+    def test_start_date_written_as_an_unquoted_yaml_date_is_accepted(self, tmp_path):
+        """An unquoted `2026-01-01` in YAML parses to datetime.date before it
+        ever reaches this module; from_dict must accept that native type,
+        not just a string.
+        """
+        data = _valid_config()
+        data["concept_track"]["start_date"] = date(2026, 3, 15)
+        config = load_topic(_write_config(tmp_path, data))
+        assert config.concept_track.start_date == date(2026, 3, 15)
+
+    def test_start_date_written_as_a_quoted_iso_string_is_accepted(self, tmp_path):
+        data = _valid_config()
+        data["concept_track"]["start_date"] = "2026-03-15"
+        config = load_topic(_write_config(tmp_path, data))
+        assert config.concept_track.start_date == date(2026, 3, 15)
+
+    def test_unparseable_start_date_raises_config_error(self, tmp_path):
+        data = _valid_config()
+        data["concept_track"]["start_date"] = "not-a-date"
+        path = _write_config(tmp_path, data)
+
+        with pytest.raises(ConfigError, match="concept_track.start_date"):
+            load_topic(path)
 
 
 class TestLoadTopicMalformedFile:
