@@ -82,7 +82,7 @@ class TestConstruction:
 
     def test_raises_config_error_when_api_key_env_looks_like_a_literal_key(self, tmp_path):
         with pytest.raises(ConfigError, match="environment variable"):
-            AlphaVantageSource(_options([IONQ], api_key_env="sk-demo12345abcdef"), tmp_path)
+            AlphaVantageSource(_options([IONQ], api_key_env="my-literal-api-key-value"), tmp_path)
 
     def test_raises_config_error_when_no_enabled_tickers(self, tmp_path):
         with pytest.raises(ConfigError):
