@@ -77,7 +77,7 @@ def _generate_lesson_post(lesson: Lesson, llm: LLMConfig) -> ConceptPost:
         except Exception as exc:
             last_error = exc
             logger.warning(
-                "Gemini call failed for lesson %r (attempt %d/%d): %s",
+                "Gemini call failed for lesson %r (attempt %s/%s): %s",
                 lesson.slug,
                 attempt,
                 llm.max_retries,
