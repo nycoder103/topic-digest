@@ -1,11 +1,10 @@
 """Tests for the alpha_vantage source adapter.
 
-`aapl_news_demo.json` would normally be a real `NEWS_SENTIMENT` response
-captured live against Alpha Vantage's public, keyless demo endpoint,
-mirroring the convention in tests/fixtures/yahoo_finance/. It isn't, this
-time: see tests/fixtures/alpha_vantage/README.md for why the live capture
-couldn't be made and what was built instead. It's shaped to match the
-response format the adapter's spec describes.
+`aapl_news_demo.json` is a real `NEWS_SENTIMENT` response captured live
+against Alpha Vantage's public, keyless demo endpoint on 2026-10-19,
+mirroring the convention in tests/fixtures/yahoo_finance/ (see
+tests/fixtures/alpha_vantage/README.md for provenance and the specific
+items these tests key off of).
 
 `edge_cases.json` is hand-built either way, exercising a quota-exceeded
 response and feed items each missing exactly one required field.
@@ -108,12 +107,13 @@ class TestFetchFieldMapping:
         top = next(
             a
             for a in articles
-            if a.url == "https://example.invalid/articles/apple-next-gen-chip-lineup"
+            if a.url
+            == "https://news.bloomberglaw.com/ip-law/apple-says-smartphones-tablets-dont-infringe-5g-tech-patents"
         )
-        assert top.title == "Apple Unveils Next-Generation Chip Lineup Ahead of Holiday Quarter"
-        assert top.publisher == "Example Newswire"
-        assert top.snippet.startswith("Apple detailed its latest chip lineup")
-        assert top.published_at == datetime(2026, 10, 18, 11, 0, 5, tzinfo=UTC)
+        assert top.title == "Apple Says Smartphones, Tablets Don’t Infringe 5G Tech Patents"
+        assert top.publisher == "Bloomberg Law News"
+        assert top.snippet.startswith("Apple has filed a complaint against Hannibal IP LLC")
+        assert top.published_at == datetime(2026, 10, 19, 15, 5, 46, tzinfo=UTC)
 
     def test_body_is_left_empty(self, tmp_path, monkeypatch):
         _patch_requests_get(monkeypatch, _load_fixture("aapl_news_demo.json"))
@@ -134,28 +134,28 @@ class TestFetchFieldMapping:
         assert all(a.published_at.utcoffset().total_seconds() == 0 for a in articles)
 
     def test_tags_hold_only_symbols_in_this_topics_universe(self, tmp_path, monkeypatch):
-        """The roundup story's ticker_sentiment includes NVDA, which isn't in
-        this topic's universe (only AAPL is configured); tags must not
-        include it.
+        """The Ronald Wayne story's ticker_sentiment includes NVDA, which
+        isn't in this topic's universe (only AAPL is configured); tags must
+        not include it.
         """
         _patch_requests_get(monkeypatch, _load_fixture("aapl_news_demo.json"))
         source = AlphaVantageSource(_options([self.AAPL]), tmp_path)
 
         articles = source.fetch(FAR_PAST)
-        roundup = next(a for a in articles if "roundup" in a.url)
+        story = next(a for a in articles if "1976-ronald-wayne" in a.url)
 
-        assert roundup.tags == ("AAPL",)
-        assert roundup.ticker_names == {"AAPL": "Apple"}
+        assert story.tags == ("AAPL",)
+        assert story.ticker_names == {"AAPL": "Apple"}
 
     def test_tags_hold_every_matching_symbol_when_both_are_tracked(self, tmp_path, monkeypatch):
         _patch_requests_get(monkeypatch, _load_fixture("aapl_news_demo.json"))
         source = AlphaVantageSource(_options([self.AAPL, self.NVDA]), tmp_path)
 
         articles = source.fetch(FAR_PAST)
-        roundup = next(a for a in articles if "roundup" in a.url)
+        story = next(a for a in articles if "1976-ronald-wayne" in a.url)
 
-        assert set(roundup.tags) == {"AAPL", "NVDA"}
-        assert roundup.ticker_names == {"AAPL": "Apple", "NVDA": "NVIDIA"}
+        assert set(story.tags) == {"AAPL", "NVDA"}
+        assert story.ticker_names == {"AAPL": "Apple", "NVDA": "NVIDIA"}
 
 
 class TestFetchSinceCutoff:
@@ -165,10 +165,10 @@ class TestFetchSinceCutoff:
         _patch_requests_get(monkeypatch, _load_fixture("aapl_news_demo.json"))
         source = AlphaVantageSource(_options([self.AAPL]), tmp_path)
 
-        since = datetime(2026, 10, 17, tzinfo=UTC)
+        since = datetime(2026, 10, 19, tzinfo=UTC)
         articles = source.fetch(since)
 
-        assert len(articles) == 2
+        assert len(articles) == 19
         assert all(a.published_at >= since for a in articles)
 
 
