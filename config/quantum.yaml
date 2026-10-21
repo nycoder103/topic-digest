@@ -238,7 +238,10 @@ concept_track:
 # as a literal value in this file.
 llm:
   provider: gemini
-  model: gemini-2.5-flash-lite
+  # gemini-2.5-flash-lite was retired for new users (confirmed via a live
+  # 404 from the API itself, which named this as the replacement) -- see
+  # the dry-run notes in PR history for how this was caught.
+  model: gemini-3.5-flash-lite
   api_key_env: GEMINI_API_KEY
   max_retries: 4
 
