@@ -26,23 +26,17 @@ topic:
 # `options` is validated by the adapter itself (src/topic_digest/sources/),
 # not by this file's schema, so its shape is whatever that adapter needs.
 #
-# alpha_vantage takes the same ticker universe shape as yahoo_finance did
-# (inline `tickers:` or, as here, a path to a separate file, resolved
-# relative to this config file's own directory via load_tickers() in
-# config.py), plus `api_key_env`, naming the environment variable that
-# holds the Alpha Vantage API key (never the key itself; see
-# slack.webhook_env below for why).
-#
-# Switched from yahoo_finance to alpha_vantage: yahoo_finance scrapes an
-# endpoint Yahoo has never published or versioned as a stable API, while
-# Alpha Vantage's NEWS_SENTIMENT is an official, versioned API with its own
-# published contract. yahoo_finance.py is left intact as a working adapter
-# for topics that don't need the official API's quota and auth tradeoffs.
+# TEMPORARY: back on yahoo_finance. The alpha_vantage adapter (also in this
+# repo, fully built and tested) is the intended long-term choice -- official,
+# versioned API vs. yahoo_finance's unofficial scrape -- but NEWS_SENTIMENT
+# turns out to be gated behind an Alpha Vantage plan tier neither available
+# key currently has, confirmed by testing both the free and "premium" keys
+# directly against the live endpoint. Switch source.adapter back to
+# alpha_vantage (same tickers_file works unchanged) once that's sorted out.
 source:
-  adapter: alpha_vantage
+  adapter: yahoo_finance
   options:
     tickers_file: tickers/quantum.yaml
-    api_key_env: ALPHA_VANTAGE_API_KEY
 
 # The filter a fetched article has to clear before it's worth summarizing.
 #
